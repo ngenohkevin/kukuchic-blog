@@ -2,6 +2,8 @@ import React from 'react';
 
 import moment from 'moment';
 
+
+//from the db
 const PostDetail = ({ post }) => {
 
     const getContentFragment = (index, text, obj, type) => {
